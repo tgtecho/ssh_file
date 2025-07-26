@@ -410,12 +410,12 @@ if __name__ == "__main__":
 
     # 使用密码认证
     success = transfer_interactive_python(
-        host='185.216.119.74',
+        host='127.0.0.1',
         port=22,
         username='root',
         local_path='qq.png',
         remote_path='/home/1.png',
-        password='a296720b7945'  # 替换为实际密码
+        password='password'  # 替换为实际密码
     )
 
     if success:
